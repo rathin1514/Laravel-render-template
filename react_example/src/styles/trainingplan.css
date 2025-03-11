@@ -1,0 +1,31 @@
+.viewplan-btn {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.viewplan-btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.trainingplan-container {
+    background-color: var(--color-lightgray);
+}
+
+.exercise-card {
+    border-radius: 20px;
+}
+
+.exercise-img {
+    border-radius: 15px;
+    height: 100%;
+}
